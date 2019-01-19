@@ -4,7 +4,8 @@ import "./App.css";
 import NavWrapper from "./Components/NavWrapper";
 
 class App extends Component {
-  constructor() {
+  constructor(props) {
+    super(props);
     this.state = {
       categories: [
         { title: "Home", icon: `` },
